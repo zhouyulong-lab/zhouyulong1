@@ -18,8 +18,8 @@ const screenData = {
   },
   formatScreenInfo: function() {
     // 格式化屏幕信息为一个字符串，增加窗口大小信息
-    return `屏幕实际宽度: ${this.screenWidth}px, 屏幕实际高度: ${this.screenHeight}px, 色盘深度: ${this.colorDepth}-bit, ` +
-           `显示区域宽度: ${this.availWidth}px, 显示区域高度: ${this.availHeight}px, ` +
+    return `屏幕实际宽度: ${this.screenWidth}px, 屏幕实际高度: ${this.screenHeight}px,  ` +
+          
            `浏览器窗口宽度: ${this.windowWidth}px, 浏览器窗口高度: ${this.windowHeight}px`;
   }
 };
